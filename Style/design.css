@@ -1,0 +1,108 @@
+
+		.navbar,.banner,.cardsection,.footer{
+			border: solid black;
+		}
+		.navbar{
+			background-color: black;
+			height: 10vh;
+		}
+		.banner{
+			background-color: yellow;
+			height: 20vh;
+		}
+		.cardsection{
+			background-color: blue;
+			height: 40vh;
+			display: flex;
+			justify-content: space-around;
+			align-items: center;
+		}
+		.footer{
+			background-color: green;
+			height: 30vh;
+			display: flex;
+			justify-content: space-around;
+		}
+		.child1,.child2,.child3{
+			width: 30%;
+			height: 40vh;
+			border: solid white;
+		}
+
+		.channel{
+			width: 100%;
+			height: 100vh;
+			background-color: silver; 
+			display: flex;
+		}
+		.btngp{
+			width: 20%;
+			border: 1px solid red;
+		}
+		.viewsection{
+			width: 80%;
+			border: 1px solid red;
+		}
+		.btn{
+			width: 50%;
+			height: 5vh;
+			border-radius: 10%;
+		}
+		
+		.ytbanner{
+			padding-left: 35%;
+			border: solid;
+			height: 25vh
+		}
+		.ytrecommend{
+			display: flex;
+			border: 2px solid black ;
+			height: 30vh;
+			justify-content: space-around;
+		}
+		.vid{
+			border: 1px solid black;
+			width: 20%;
+		}
+		.video{
+			border: 1px solid black;
+			width: 20%;
+		}
+		.ytrecent{
+			display: flex;
+			border: 2px solid black ;
+			height: 30vh;
+			justify-content: space-around;}
+		.socialmedia,.contact,.map{
+			width: 30%;
+		}
+		#nav ul li{
+    float: left;
+    list-style: none;
+    margin: 0 5px; /*    top&bottom left&right*/
+    color: white;
+    opacity: 0.3;
+    font-size: 20px;
+   }
+	#nav ul li:hover{
+		opacity:1 ;
+		cursor: pointer;
+		text-shadow:5px 5px 3px gray}
+
+body{
+	margin: 0;
+	}
+
+#nav{
+	overflow: hidden;
+	}
+
+div.cardsection{
+	background-image: url('lional-messi.jpg');
+	background-size: cover;
+}
+
+
+
+
+
